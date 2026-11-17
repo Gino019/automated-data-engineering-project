@@ -1,0 +1,8 @@
+flowforge_de:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: warehouse/flowforge.duckdb
+      schema: analytics
+      threads: 2

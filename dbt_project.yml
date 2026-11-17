@@ -1,0 +1,15 @@
+name: flowforge_de
+version: '1.0.0'
+config-version: 2
+profile: flowforge_de
+model-paths: ['models']
+target-path: target
+clean-targets: ['target', 'dbt_packages']
+models:
+  flowforge_de:
+    +materialized: view
+    staging:
+      +schema: staging
+    marts:
+      +schema: marts
+      +materialized: table

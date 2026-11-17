@@ -1,0 +1,26 @@
+version: 2
+models:
+  - name: fct_completed_orders
+    description: Completed orders joined with customer and product dimensions; costs and margins computed.
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+      - name: revenue
+        data_tests: [not_null]
+      - name: region
+        data_tests: [not_null]
+      - name: category
+        data_tests: [not_null]
+  - name: mart_sales_cube
+    description: One row per month, region, and product category for interactive analytics.
+    columns:
+      - name: month_start
+        data_tests: [not_null]
+      - name: year
+        data_tests: [not_null]
+      - name: region
+        data_tests: [not_null]
+      - name: category
+        data_tests: [not_null]
+      - name: revenue
+        data_tests: [not_null]

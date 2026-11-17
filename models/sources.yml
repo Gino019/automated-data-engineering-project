@@ -1,0 +1,22 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    description: Reproducible, synthetic e-commerce CSV extracts loaded by Python into DuckDB.
+    tables:
+      - name: orders
+        columns:
+          - name: order_id
+            data_tests: [not_null, unique]
+          - name: customer_id
+            data_tests: [not_null]
+          - name: product_id
+            data_tests: [not_null]
+      - name: customers
+        columns:
+          - name: customer_id
+            data_tests: [not_null, unique]
+      - name: products
+        columns:
+          - name: product_id
+            data_tests: [not_null, unique]

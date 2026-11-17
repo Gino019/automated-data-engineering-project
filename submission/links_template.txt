@@ -1,0 +1,8 @@
+Project: FlowForge DE — Automated Data Engineering Pipeline
+Public GitHub repository: https://github.com/Gino019/automated-data-engineering-project
+Public app: https://gino019.github.io/automated-data-engineering-project/
+GitHub Actions: https://github.com/Gino019/automated-data-engineering-project/actions
+Medium / Dev.to / Hashnode published article: REPLACE_WITH_PUBLISHED_ARTICLE_URL
+YouTube / TikTok / Facebook public video (max 5 minutes): REPLACE_WITH_PUBLIC_VIDEO_URL
+
+Note: verify that the deployed app URL and Actions workflow are accessible and successful before submitting.

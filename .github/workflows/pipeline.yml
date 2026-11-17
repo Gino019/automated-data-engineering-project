@@ -1,0 +1,70 @@
+name: FlowForge DE — ELT, Tests & Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '23 7 * * *'  # scheduled daily UTC; GitHub may delay scheduled runs
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate synthetic input generator
+        run: python -m pytest tests -q
+      - name: Extract CSV sources
+        run: python scripts/generate_data.py
+      - name: Load raw tables into DuckDB
+        run: python scripts/ingest.py
+      - name: Transform and test models (dbt)
+        run: dbt build --profiles-dir . --project-dir .
+      - name: Publish curated aggregate JSON
+        run: python scripts/export_dashboard.py
+      - name: Verify generated output
+        run: python scripts/validate_artifact.py
+      - name: Upload auditable pipeline outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flowforge-pipeline-report
+          path: |
+            site/data/metrics.json
+            target/run_results.json
+            target/manifest.json
+          if-no-files-found: ignore
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: pipeline
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

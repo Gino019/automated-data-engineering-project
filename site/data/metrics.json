@@ -1,0 +1,4416 @@
+{
+  "project": "FlowForge DE",
+  "source": "synthetic preview (dbt pipeline replaces this during CI)",
+  "synthetic": true,
+  "generated_at_utc": "PREVIEW ONLY",
+  "run_id": "preview",
+  "quality": {
+    "raw_orders": 3200,
+    "customers": 260,
+    "products": 48,
+    "completed_orders": 2818,
+    "excluded_cancelled_or_refunded": 382
+  },
+  "rows": [
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 31,
+      "revenue": 4495.11,
+      "profit": 1559.43
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 12,
+      "revenue": 2945.45,
+      "profit": 1006.29
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 11,
+      "units": 25,
+      "revenue": 6339.49,
+      "profit": 1571.33
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 12,
+      "units": 41,
+      "revenue": 9916.47,
+      "profit": 3712.86
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 13,
+      "revenue": 1735.86,
+      "profit": 633.27
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 26,
+      "revenue": 7119.48,
+      "profit": 2466.97
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 19,
+      "revenue": 4433.49,
+      "profit": 1417.15
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 10,
+      "units": 29,
+      "revenue": 9424.92,
+      "profit": 3558.43
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 14,
+      "revenue": 3885.65,
+      "profit": 1011.9
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 25,
+      "revenue": 6008.22,
+      "profit": 2479.82
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 6,
+      "units": 16,
+      "revenue": 4058.06,
+      "profit": 988.26
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 6,
+      "units": 23,
+      "revenue": 6487.33,
+      "profit": 2390.57
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 10,
+      "revenue": 1855.1,
+      "profit": 737.6
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 21,
+      "revenue": 5710.89,
+      "profit": 1916.09
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 14,
+      "units": 40,
+      "revenue": 13107.16,
+      "profit": 3488.32
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 7,
+      "units": 20,
+      "revenue": 6204.96,
+      "profit": 1958.73
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 21,
+      "revenue": 4228.44,
+      "profit": 1400.65
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 12,
+      "units": 32,
+      "revenue": 8314.6,
+      "profit": 2812.01
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 7,
+      "units": 21,
+      "revenue": 4002.93,
+      "profit": 1248.21
+    },
+    {
+      "month": "2025-01",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 18,
+      "revenue": 3433.8,
+      "profit": 1203.96
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 8,
+      "revenue": 1250.11,
+      "profit": 432.05
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 4,
+      "units": 8,
+      "revenue": 1871.59,
+      "profit": 621.77
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 6,
+      "units": 23,
+      "revenue": 6901.78,
+      "profit": 2022.25
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 9,
+      "units": 29,
+      "revenue": 9697.82,
+      "profit": 3939.52
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 11,
+      "revenue": 3084.09,
+      "profit": 666.8
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 11,
+      "units": 21,
+      "revenue": 5069.5,
+      "profit": 1588.27
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 14,
+      "revenue": 3342.85,
+      "profit": 984.25
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 4,
+      "units": 16,
+      "revenue": 5315.36,
+      "profit": 1806.15
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 27,
+      "revenue": 4300.68,
+      "profit": 1578.04
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 23,
+      "revenue": 6149.81,
+      "profit": 1912.61
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 4,
+      "units": 13,
+      "revenue": 3910.26,
+      "profit": 904.86
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 3,
+      "units": 11,
+      "revenue": 4126.76,
+      "profit": 1833.81
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 26,
+      "revenue": 5456.38,
+      "profit": 1519.76
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 20,
+      "revenue": 4903.79,
+      "profit": 1764.1
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 4,
+      "units": 16,
+      "revenue": 3786.72,
+      "profit": 939.51
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 2,
+      "units": 3,
+      "revenue": 579.38,
+      "profit": 213.35
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 11,
+      "revenue": 3451.25,
+      "profit": 940.18
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 2,
+      "units": 6,
+      "revenue": 2039.16,
+      "profit": 677.43
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 9,
+      "units": 25,
+      "revenue": 4796.52,
+      "profit": 1697.04
+    },
+    {
+      "month": "2025-02",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 10,
+      "revenue": 2008.34,
+      "profit": 473.62
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 11,
+      "units": 41,
+      "revenue": 8743.02,
+      "profit": 2920.49
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 10,
+      "revenue": 2533.47,
+      "profit": 681.03
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 7,
+      "units": 24,
+      "revenue": 4425.26,
+      "profit": 1402.02
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 7,
+      "units": 17,
+      "revenue": 3821.47,
+      "profit": 1423.68
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 18,
+      "revenue": 3068.3,
+      "profit": 926.67
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 25,
+      "revenue": 7970.5,
+      "profit": 2142.27
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 22,
+      "revenue": 5544.75,
+      "profit": 1627.5
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 7,
+      "units": 29,
+      "revenue": 9724.38,
+      "profit": 4199.78
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 2,
+      "units": 2,
+      "revenue": 356.05,
+      "profit": 110.44
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 19,
+      "revenue": 3536.62,
+      "profit": 1061.39
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 6,
+      "units": 18,
+      "revenue": 5081.87,
+      "profit": 1564.98
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 5,
+      "units": 18,
+      "revenue": 4375.49,
+      "profit": 1358.29
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 14,
+      "revenue": 2143.96,
+      "profit": 678.64
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 10,
+      "revenue": 2762.41,
+      "profit": 859.38
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 7,
+      "units": 13,
+      "revenue": 3504.73,
+      "profit": 1252.79
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 5,
+      "units": 15,
+      "revenue": 3267.01,
+      "profit": 1075.51
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 25,
+      "revenue": 6671.09,
+      "profit": 2310.45
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 15,
+      "units": 46,
+      "revenue": 12225.62,
+      "profit": 3649.47
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 13,
+      "units": 27,
+      "revenue": 6462.64,
+      "profit": 2236.74
+    },
+    {
+      "month": "2025-03",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 11,
+      "revenue": 2469.56,
+      "profit": 838.44
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 29,
+      "revenue": 5536.69,
+      "profit": 1691.65
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 24,
+      "revenue": 7039.3,
+      "profit": 2184.83
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 3,
+      "units": 9,
+      "revenue": 2483.05,
+      "profit": 468.73
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 6,
+      "units": 20,
+      "revenue": 6847.43,
+      "profit": 2344.17
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 2,
+      "units": 6,
+      "revenue": 946.11,
+      "profit": 261.66
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 27,
+      "revenue": 7393.14,
+      "profit": 2123.29
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 7,
+      "units": 14,
+      "revenue": 3695.63,
+      "profit": 923.36
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 9,
+      "units": 34,
+      "revenue": 10446.73,
+      "profit": 3408.05
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 17,
+      "revenue": 4963.44,
+      "profit": 1709.33
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 14,
+      "revenue": 3477.81,
+      "profit": 1236.49
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 9,
+      "units": 27,
+      "revenue": 7105.3,
+      "profit": 1596.02
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 4,
+      "units": 9,
+      "revenue": 2977.26,
+      "profit": 1091.72
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 17,
+      "revenue": 2896.95,
+      "profit": 1054.5
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 19,
+      "revenue": 4384.8,
+      "profit": 1466.85
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 4,
+      "units": 15,
+      "revenue": 3829.58,
+      "profit": 1292.9
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 9,
+      "units": 25,
+      "revenue": 6591.08,
+      "profit": 2024.73
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 18,
+      "revenue": 2569.46,
+      "profit": 933.68
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 20,
+      "revenue": 4232.31,
+      "profit": 1403.73
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 6,
+      "units": 25,
+      "revenue": 6014.64,
+      "profit": 1748.3
+    },
+    {
+      "month": "2025-04",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 11,
+      "revenue": 2326.93,
+      "profit": 764.95
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 13,
+      "units": 38,
+      "revenue": 6623.55,
+      "profit": 2322.58
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 13,
+      "revenue": 2913.64,
+      "profit": 1102.51
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 6,
+      "units": 21,
+      "revenue": 5517.5,
+      "profit": 1205.2
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 7,
+      "units": 29,
+      "revenue": 7054.65,
+      "profit": 2730.46
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 15,
+      "revenue": 4219.51,
+      "profit": 1156.22
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 11,
+      "revenue": 2210.61,
+      "profit": 642.92
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 22,
+      "revenue": 7075.98,
+      "profit": 1955.03
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 8,
+      "units": 22,
+      "revenue": 7389.54,
+      "profit": 2199.26
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 20,
+      "revenue": 2648.12,
+      "profit": 1004.4
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 11,
+      "units": 33,
+      "revenue": 8660.37,
+      "profit": 2756.13
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 7,
+      "units": 19,
+      "revenue": 6088.52,
+      "profit": 1402.89
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 7,
+      "units": 18,
+      "revenue": 4878.05,
+      "profit": 1793.36
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 20,
+      "revenue": 4049.73,
+      "profit": 1275.36
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 14,
+      "revenue": 3171.87,
+      "profit": 1059.6
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 14,
+      "units": 37,
+      "revenue": 8252.74,
+      "profit": 2179.48
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 2,
+      "units": 5,
+      "revenue": 1664.38,
+      "profit": 533.36
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 22,
+      "revenue": 2868.13,
+      "profit": 755.65
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 22,
+      "revenue": 6074.37,
+      "profit": 2160.02
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 9,
+      "units": 34,
+      "revenue": 10258.41,
+      "profit": 2622.36
+    },
+    {
+      "month": "2025-05",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 3,
+      "units": 6,
+      "revenue": 1286.35,
+      "profit": 400.79
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 16,
+      "revenue": 4769.97,
+      "profit": 1294.72
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 10,
+      "units": 23,
+      "revenue": 4740.44,
+      "profit": 1599.0
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 6,
+      "units": 17,
+      "revenue": 4647.97,
+      "profit": 1179.38
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 4,
+      "units": 16,
+      "revenue": 3299.97,
+      "profit": 1199.83
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 15,
+      "revenue": 3660.58,
+      "profit": 1544.44
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 27,
+      "revenue": 7899.1,
+      "profit": 2694.94
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 8,
+      "units": 23,
+      "revenue": 6661.95,
+      "profit": 1794.99
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 11,
+      "units": 20,
+      "revenue": 4927.46,
+      "profit": 1805.19
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 17,
+      "revenue": 4013.26,
+      "profit": 1533.27
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 13,
+      "revenue": 4626.4,
+      "profit": 1248.55
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 12,
+      "units": 26,
+      "revenue": 6526.48,
+      "profit": 1918.35
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 8,
+      "units": 20,
+      "revenue": 3926.45,
+      "profit": 1359.67
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 33,
+      "revenue": 8103.84,
+      "profit": 2470.96
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 5,
+      "revenue": 1499.53,
+      "profit": 496.58
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 10,
+      "units": 29,
+      "revenue": 8888.04,
+      "profit": 2576.37
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 2,
+      "units": 6,
+      "revenue": 1059.77,
+      "profit": 318.53
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 10,
+      "units": 30,
+      "revenue": 10105.64,
+      "profit": 2691.56
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 9,
+      "revenue": 1212.73,
+      "profit": 451.15
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 8,
+      "units": 18,
+      "revenue": 3607.23,
+      "profit": 1107.16
+    },
+    {
+      "month": "2025-06",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 8,
+      "units": 21,
+      "revenue": 6925.82,
+      "profit": 2182.56
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 5,
+      "revenue": 488.53,
+      "profit": 156.25
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 20,
+      "revenue": 4542.33,
+      "profit": 1409.19
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 5,
+      "units": 11,
+      "revenue": 1467.52,
+      "profit": 497.32
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 9,
+      "units": 34,
+      "revenue": 9663.17,
+      "profit": 3557.28
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 18,
+      "revenue": 3939.71,
+      "profit": 1147.47
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 2,
+      "units": 9,
+      "revenue": 2642.01,
+      "profit": 477.92
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 8,
+      "units": 20,
+      "revenue": 4436.91,
+      "profit": 1304.32
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 6,
+      "units": 23,
+      "revenue": 7000.66,
+      "profit": 2694.65
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 18,
+      "revenue": 3236.44,
+      "profit": 1028.97
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 29,
+      "revenue": 6966.43,
+      "profit": 2300.32
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 11,
+      "units": 38,
+      "revenue": 8192.36,
+      "profit": 2140.89
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 5,
+      "units": 16,
+      "revenue": 4098.16,
+      "profit": 1547.51
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 19,
+      "revenue": 4934.05,
+      "profit": 1609.97
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 20,
+      "revenue": 6162.3,
+      "profit": 1477.26
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 6,
+      "units": 23,
+      "revenue": 7212.66,
+      "profit": 1918.76
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 9,
+      "units": 29,
+      "revenue": 9134.58,
+      "profit": 3357.0
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 27,
+      "revenue": 4072.78,
+      "profit": 1494.28
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 13,
+      "revenue": 2736.58,
+      "profit": 645.45
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 8,
+      "units": 29,
+      "revenue": 8546.31,
+      "profit": 2614.49
+    },
+    {
+      "month": "2025-07",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 12,
+      "units": 34,
+      "revenue": 8633.67,
+      "profit": 3112.52
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 17,
+      "revenue": 4658.31,
+      "profit": 1199.39
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 4,
+      "units": 9,
+      "revenue": 1939.79,
+      "profit": 747.41
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 7,
+      "units": 26,
+      "revenue": 6981.54,
+      "profit": 2192.25
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 6,
+      "units": 20,
+      "revenue": 5330.38,
+      "profit": 1918.34
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 23,
+      "revenue": 5587.98,
+      "profit": 1750.85
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 23,
+      "revenue": 4956.43,
+      "profit": 1594.34
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 4,
+      "units": 15,
+      "revenue": 5284.82,
+      "profit": 1053.17
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 3,
+      "units": 14,
+      "revenue": 5206.19,
+      "profit": 2195.91
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 23,
+      "revenue": 4215.59,
+      "profit": 1312.27
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 16,
+      "revenue": 5014.54,
+      "profit": 1921.32
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 6,
+      "units": 23,
+      "revenue": 5787.2,
+      "profit": 1944.85
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 8,
+      "units": 16,
+      "revenue": 3815.14,
+      "profit": 1392.44
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 10,
+      "revenue": 1722.4,
+      "profit": 571.2
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 16,
+      "revenue": 4246.32,
+      "profit": 1658.04
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 3,
+      "units": 12,
+      "revenue": 3183.78,
+      "profit": 760.74
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 4,
+      "units": 14,
+      "revenue": 2976.44,
+      "profit": 1259.73
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 23,
+      "revenue": 6657.68,
+      "profit": 1804.58
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 4,
+      "units": 13,
+      "revenue": 3252.9,
+      "profit": 1126.79
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 6,
+      "units": 15,
+      "revenue": 3863.14,
+      "profit": 863.4
+    },
+    {
+      "month": "2025-08",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 11,
+      "units": 33,
+      "revenue": 4766.57,
+      "profit": 1572.48
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 11,
+      "revenue": 1884.23,
+      "profit": 669.87
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 20,
+      "revenue": 6482.66,
+      "profit": 1970.56
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 1,
+      "units": 1,
+      "revenue": 329.24,
+      "profit": 142.86
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 5,
+      "units": 11,
+      "revenue": 2402.85,
+      "profit": 903.06
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 12,
+      "revenue": 2012.9,
+      "profit": 702.74
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 13,
+      "revenue": 3911.61,
+      "profit": 1142.16
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 2,
+      "units": 5,
+      "revenue": 1076.79,
+      "profit": 344.25
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 6,
+      "units": 18,
+      "revenue": 5668.28,
+      "profit": 2145.51
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 18,
+      "revenue": 3407.2,
+      "profit": 1295.47
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 29,
+      "revenue": 6637.58,
+      "profit": 2194.61
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 5,
+      "units": 16,
+      "revenue": 2420.09,
+      "profit": 887.16
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 6,
+      "units": 21,
+      "revenue": 5244.57,
+      "profit": 2000.43
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 21,
+      "revenue": 7754.62,
+      "profit": 2048.3
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 11,
+      "units": 32,
+      "revenue": 6530.73,
+      "profit": 2005.67
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 9,
+      "units": 29,
+      "revenue": 7021.38,
+      "profit": 1916.94
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 3,
+      "units": 12,
+      "revenue": 2654.3,
+      "profit": 1187.83
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 2,
+      "units": 9,
+      "revenue": 1935.3,
+      "profit": 514.51
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 17,
+      "revenue": 4706.43,
+      "profit": 1680.33
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 3,
+      "units": 6,
+      "revenue": 1876.74,
+      "profit": 759.24
+    },
+    {
+      "month": "2025-09",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 8,
+      "units": 21,
+      "revenue": 6972.37,
+      "profit": 2527.46
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 18,
+      "revenue": 4230.37,
+      "profit": 1350.62
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 24,
+      "revenue": 6065.05,
+      "profit": 2026.86
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 5,
+      "units": 13,
+      "revenue": 3182.94,
+      "profit": 788.46
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 9,
+      "units": 29,
+      "revenue": 5311.41,
+      "profit": 1992.35
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 30,
+      "revenue": 6091.91,
+      "profit": 1728.08
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 20,
+      "revenue": 5985.34,
+      "profit": 2166.63
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 7,
+      "units": 27,
+      "revenue": 5310.12,
+      "profit": 1764.7
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 4,
+      "units": 16,
+      "revenue": 3791.41,
+      "profit": 1189.23
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 2,
+      "units": 4,
+      "revenue": 582.85,
+      "profit": 262.37
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 22,
+      "revenue": 5301.05,
+      "profit": 1793.37
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 5,
+      "units": 14,
+      "revenue": 3280.27,
+      "profit": 991.49
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 5,
+      "units": 19,
+      "revenue": 6379.54,
+      "profit": 2504.69
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 17,
+      "revenue": 3694.04,
+      "profit": 1231.59
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 12,
+      "revenue": 3206.7,
+      "profit": 1066.04
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 8,
+      "units": 28,
+      "revenue": 6796.78,
+      "profit": 2038.21
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 7,
+      "units": 20,
+      "revenue": 5210.25,
+      "profit": 1981.23
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 12,
+      "units": 44,
+      "revenue": 9771.66,
+      "profit": 2770.39
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 7,
+      "revenue": 2146.47,
+      "profit": 791.71
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 5,
+      "units": 21,
+      "revenue": 3739.52,
+      "profit": 1100.99
+    },
+    {
+      "month": "2025-10",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 5,
+      "units": 13,
+      "revenue": 3199.24,
+      "profit": 1366.26
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 17,
+      "revenue": 4227.73,
+      "profit": 1077.96
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 25,
+      "revenue": 5737.5,
+      "profit": 1878.51
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 7,
+      "units": 15,
+      "revenue": 2879.6,
+      "profit": 1167.58
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 7,
+      "units": 21,
+      "revenue": 5659.45,
+      "profit": 1768.04
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 20,
+      "revenue": 4520.35,
+      "profit": 1602.68
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 13,
+      "units": 39,
+      "revenue": 7622.96,
+      "profit": 2768.58
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 14,
+      "revenue": 3037.5,
+      "profit": 928.38
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 4,
+      "units": 13,
+      "revenue": 3325.68,
+      "profit": 1017.02
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 15,
+      "revenue": 1963.88,
+      "profit": 709.38
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 17,
+      "revenue": 3330.25,
+      "profit": 1139.25
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 7,
+      "units": 18,
+      "revenue": 3056.45,
+      "profit": 996.78
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 11,
+      "units": 34,
+      "revenue": 9740.46,
+      "profit": 3233.17
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 23,
+      "revenue": 6450.09,
+      "profit": 2302.75
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 10,
+      "units": 30,
+      "revenue": 8241.01,
+      "profit": 2464.18
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 7,
+      "units": 27,
+      "revenue": 6600.05,
+      "profit": 2243.89
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 6,
+      "units": 15,
+      "revenue": 4762.72,
+      "profit": 1650.78
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 9,
+      "revenue": 2088.97,
+      "profit": 584.08
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 12,
+      "units": 32,
+      "revenue": 8289.39,
+      "profit": 2694.3
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 6,
+      "units": 21,
+      "revenue": 5593.72,
+      "profit": 1823.87
+    },
+    {
+      "month": "2025-11",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 9,
+      "revenue": 1982.86,
+      "profit": 741.38
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 16,
+      "revenue": 4481.83,
+      "profit": 1331.52
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 24,
+      "revenue": 6217.01,
+      "profit": 1781.37
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "Central",
+      "category": "Home",
+      "orders": 6,
+      "units": 19,
+      "revenue": 4851.01,
+      "profit": 1526.92
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 8,
+      "units": 27,
+      "revenue": 8226.47,
+      "profit": 2632.51
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 11,
+      "units": 25,
+      "revenue": 6195.08,
+      "profit": 1782.22
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 9,
+      "revenue": 2277.16,
+      "profit": 506.07
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "East",
+      "category": "Home",
+      "orders": 7,
+      "units": 25,
+      "revenue": 6470.58,
+      "profit": 1844.56
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "East",
+      "category": "Sports",
+      "orders": 6,
+      "units": 13,
+      "revenue": 3501.13,
+      "profit": 1314.32
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 12,
+      "units": 37,
+      "revenue": 5775.14,
+      "profit": 1870.96
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 22,
+      "revenue": 6269.4,
+      "profit": 2337.93
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "North",
+      "category": "Home",
+      "orders": 4,
+      "units": 17,
+      "revenue": 4177.0,
+      "profit": 1019.79
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "North",
+      "category": "Sports",
+      "orders": 8,
+      "units": 25,
+      "revenue": 7118.99,
+      "profit": 2524.8
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 10,
+      "units": 26,
+      "revenue": 5494.56,
+      "profit": 1740.28
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 23,
+      "revenue": 5861.43,
+      "profit": 1864.8
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "South",
+      "category": "Home",
+      "orders": 7,
+      "units": 25,
+      "revenue": 7191.87,
+      "profit": 2109.59
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "South",
+      "category": "Sports",
+      "orders": 4,
+      "units": 14,
+      "revenue": 4001.48,
+      "profit": 1329.63
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 18,
+      "revenue": 4788.16,
+      "profit": 1416.52
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 18,
+      "revenue": 6206.15,
+      "profit": 2161.34
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "West",
+      "category": "Home",
+      "orders": 4,
+      "units": 13,
+      "revenue": 3630.67,
+      "profit": 1239.02
+    },
+    {
+      "month": "2025-12",
+      "year": 2025,
+      "region": "West",
+      "category": "Sports",
+      "orders": 6,
+      "units": 18,
+      "revenue": 4392.53,
+      "profit": 1533.14
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 10,
+      "units": 28,
+      "revenue": 6150.42,
+      "profit": 2019.14
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 10,
+      "units": 23,
+      "revenue": 4876.47,
+      "profit": 1605.33
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 4,
+      "units": 13,
+      "revenue": 3986.74,
+      "profit": 743.11
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 5,
+      "units": 13,
+      "revenue": 4201.0,
+      "profit": 1357.15
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 28,
+      "revenue": 5780.65,
+      "profit": 1953.06
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 6,
+      "revenue": 1396.56,
+      "profit": 377.7
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 7,
+      "units": 18,
+      "revenue": 6905.03,
+      "profit": 2095.31
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 6,
+      "units": 16,
+      "revenue": 3832.39,
+      "profit": 1293.93
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 14,
+      "revenue": 2421.51,
+      "profit": 626.8
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 18,
+      "revenue": 3426.53,
+      "profit": 1302.25
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 6,
+      "units": 17,
+      "revenue": 4856.43,
+      "profit": 1329.62
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 3,
+      "units": 12,
+      "revenue": 3958.64,
+      "profit": 1279.92
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 13,
+      "revenue": 2492.95,
+      "profit": 897.57
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 13,
+      "revenue": 3310.11,
+      "profit": 1079.86
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 5,
+      "units": 17,
+      "revenue": 4094.5,
+      "profit": 952.16
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 11,
+      "units": 26,
+      "revenue": 6446.43,
+      "profit": 2332.58
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 26,
+      "revenue": 6173.63,
+      "profit": 1744.46
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 14,
+      "revenue": 3708.93,
+      "profit": 1418.69
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 3,
+      "units": 11,
+      "revenue": 3225.98,
+      "profit": 616.53
+    },
+    {
+      "month": "2026-01",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 5,
+      "units": 17,
+      "revenue": 5791.23,
+      "profit": 2035.84
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 7,
+      "revenue": 851.41,
+      "profit": 287.07
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 11,
+      "revenue": 2890.63,
+      "profit": 772.32
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 5,
+      "units": 10,
+      "revenue": 3027.41,
+      "profit": 744.86
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 8,
+      "units": 26,
+      "revenue": 7880.73,
+      "profit": 3092.43
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 12,
+      "units": 33,
+      "revenue": 6075.64,
+      "profit": 2137.26
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 10,
+      "revenue": 3111.96,
+      "profit": 913.38
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 4,
+      "units": 13,
+      "revenue": 4752.32,
+      "profit": 1567.32
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 7,
+      "units": 13,
+      "revenue": 4516.02,
+      "profit": 1665.27
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 11,
+      "units": 34,
+      "revenue": 7541.19,
+      "profit": 2398.99
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 4,
+      "units": 16,
+      "revenue": 2856.88,
+      "profit": 1236.87
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 3,
+      "units": 11,
+      "revenue": 3019.33,
+      "profit": 1101.83
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 8,
+      "units": 25,
+      "revenue": 6148.79,
+      "profit": 2671.19
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 24,
+      "revenue": 7845.76,
+      "profit": 2130.14
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 21,
+      "revenue": 5046.36,
+      "profit": 1799.58
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 2,
+      "units": 7,
+      "revenue": 1225.53,
+      "profit": 397.34
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 10,
+      "units": 27,
+      "revenue": 7923.26,
+      "profit": 2734.57
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 14,
+      "revenue": 4015.74,
+      "profit": 1205.32
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 15,
+      "revenue": 4731.12,
+      "profit": 1537.33
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 7,
+      "units": 25,
+      "revenue": 5195.32,
+      "profit": 1764.43
+    },
+    {
+      "month": "2026-02",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 14,
+      "revenue": 4335.62,
+      "profit": 1526.4
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 23,
+      "revenue": 4883.95,
+      "profit": 1288.94
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 14,
+      "revenue": 3596.17,
+      "profit": 1479.9
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 6,
+      "units": 13,
+      "revenue": 2500.71,
+      "profit": 858.22
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 9,
+      "units": 29,
+      "revenue": 7294.46,
+      "profit": 2633.76
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 20,
+      "revenue": 5079.18,
+      "profit": 1322.03
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 22,
+      "revenue": 4179.9,
+      "profit": 1626.49
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 4,
+      "units": 12,
+      "revenue": 2079.31,
+      "profit": 779.66
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 9,
+      "units": 32,
+      "revenue": 7435.55,
+      "profit": 2581.26
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 23,
+      "revenue": 6850.48,
+      "profit": 2381.67
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 18,
+      "revenue": 3965.93,
+      "profit": 1467.35
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 10,
+      "units": 31,
+      "revenue": 8504.22,
+      "profit": 2424.64
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 7,
+      "units": 19,
+      "revenue": 5557.38,
+      "profit": 2118.27
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 15,
+      "revenue": 2224.15,
+      "profit": 627.4
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 21,
+      "revenue": 5618.97,
+      "profit": 1703.05
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 3,
+      "units": 11,
+      "revenue": 3480.37,
+      "profit": 961.55
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 6,
+      "units": 22,
+      "revenue": 6212.2,
+      "profit": 2531.53
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 11,
+      "units": 29,
+      "revenue": 5970.21,
+      "profit": 1943.38
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 20,
+      "revenue": 5438.88,
+      "profit": 1863.59
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 5,
+      "units": 11,
+      "revenue": 2373.68,
+      "profit": 852.51
+    },
+    {
+      "month": "2026-03",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 14,
+      "revenue": 2834.73,
+      "profit": 856.55
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 11,
+      "revenue": 2732.82,
+      "profit": 846.31
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 10,
+      "units": 44,
+      "revenue": 10404.84,
+      "profit": 2818.02
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 4,
+      "units": 15,
+      "revenue": 4410.24,
+      "profit": 1052.26
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 6,
+      "units": 16,
+      "revenue": 3944.94,
+      "profit": 1436.37
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 26,
+      "revenue": 4845.68,
+      "profit": 1776.74
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 20,
+      "revenue": 4886.84,
+      "profit": 1598.57
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 15,
+      "revenue": 4680.23,
+      "profit": 1076.96
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 2,
+      "units": 2,
+      "revenue": 843.14,
+      "profit": 407.1
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 26,
+      "revenue": 3890.91,
+      "profit": 1500.8
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 10,
+      "revenue": 2191.18,
+      "profit": 458.39
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 7,
+      "units": 23,
+      "revenue": 7835.95,
+      "profit": 2459.17
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 5,
+      "units": 15,
+      "revenue": 3098.05,
+      "profit": 1280.04
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 17,
+      "revenue": 3233.08,
+      "profit": 1040.8
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 17,
+      "revenue": 4462.7,
+      "profit": 1490.29
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 5,
+      "units": 13,
+      "revenue": 4107.78,
+      "profit": 1341.83
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 9,
+      "units": 19,
+      "revenue": 5485.72,
+      "profit": 2005.98
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 14,
+      "revenue": 2825.73,
+      "profit": 867.86
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 20,
+      "revenue": 4965.83,
+      "profit": 1603.4
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 7,
+      "units": 21,
+      "revenue": 5936.27,
+      "profit": 1786.26
+    },
+    {
+      "month": "2026-04",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 4,
+      "units": 11,
+      "revenue": 4062.15,
+      "profit": 1761.96
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 24,
+      "revenue": 5381.02,
+      "profit": 1692.06
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 9,
+      "units": 27,
+      "revenue": 8411.73,
+      "profit": 2729.01
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 10,
+      "units": 28,
+      "revenue": 7121.84,
+      "profit": 1996.52
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 8,
+      "units": 22,
+      "revenue": 4876.48,
+      "profit": 1303.63
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 20,
+      "revenue": 5258.97,
+      "profit": 1785.29
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 15,
+      "revenue": 5313.47,
+      "profit": 1564.02
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 24,
+      "revenue": 5506.36,
+      "profit": 1924.5
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 5,
+      "units": 16,
+      "revenue": 4976.32,
+      "profit": 2024.58
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 12,
+      "revenue": 2952.01,
+      "profit": 575.16
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 16,
+      "revenue": 3583.1,
+      "profit": 1112.01
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 9,
+      "units": 29,
+      "revenue": 7278.9,
+      "profit": 1918.24
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 7,
+      "units": 17,
+      "revenue": 2382.05,
+      "profit": 927.56
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 17,
+      "revenue": 4036.42,
+      "profit": 1020.51
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 16,
+      "revenue": 4501.32,
+      "profit": 1183.9
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 9,
+      "units": 27,
+      "revenue": 6251.05,
+      "profit": 1894.18
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 6,
+      "units": 22,
+      "revenue": 6994.49,
+      "profit": 2681.01
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 11,
+      "units": 33,
+      "revenue": 7912.1,
+      "profit": 2196.1
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 19,
+      "revenue": 5167.73,
+      "profit": 1614.35
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 5,
+      "units": 9,
+      "revenue": 2039.64,
+      "profit": 682.41
+    },
+    {
+      "month": "2026-05",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 5,
+      "units": 18,
+      "revenue": 3773.72,
+      "profit": 1473.38
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 22,
+      "revenue": 2788.82,
+      "profit": 1090.14
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 3,
+      "units": 8,
+      "revenue": 1732.94,
+      "profit": 592.83
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 3,
+      "units": 10,
+      "revenue": 1980.74,
+      "profit": 725.18
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 2,
+      "units": 8,
+      "revenue": 1115.01,
+      "profit": 505.42
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 14,
+      "revenue": 1922.79,
+      "profit": 773.11
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 14,
+      "revenue": 3333.79,
+      "profit": 1265.96
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 3,
+      "units": 12,
+      "revenue": 2073.62,
+      "profit": 728.65
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 9,
+      "units": 24,
+      "revenue": 5413.36,
+      "profit": 2094.1
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 15,
+      "revenue": 3228.34,
+      "profit": 1040.99
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 18,
+      "revenue": 4960.32,
+      "profit": 1407.38
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 8,
+      "units": 20,
+      "revenue": 5231.55,
+      "profit": 1254.66
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 9,
+      "units": 31,
+      "revenue": 6385.32,
+      "profit": 2586.12
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 6,
+      "revenue": 1342.08,
+      "profit": 468.67
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 19,
+      "revenue": 5258.83,
+      "profit": 1707.49
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 4,
+      "units": 14,
+      "revenue": 3550.93,
+      "profit": 1009.5
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 6,
+      "units": 23,
+      "revenue": 7657.89,
+      "profit": 2836.05
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 14,
+      "revenue": 2971.38,
+      "profit": 741.12
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 12,
+      "revenue": 2780.79,
+      "profit": 955.22
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 7,
+      "units": 18,
+      "revenue": 5725.85,
+      "profit": 1415.41
+    },
+    {
+      "month": "2026-06",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 6,
+      "units": 14,
+      "revenue": 4587.09,
+      "profit": 1507.3
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 11,
+      "revenue": 2410.9,
+      "profit": 737.19
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 23,
+      "revenue": 6325.88,
+      "profit": 2331.02
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 3,
+      "units": 8,
+      "revenue": 1661.19,
+      "profit": 504.95
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 4,
+      "units": 7,
+      "revenue": 2274.95,
+      "profit": 651.23
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 15,
+      "revenue": 4028.87,
+      "profit": 1209.66
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 20,
+      "revenue": 6209.04,
+      "profit": 1408.75
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 5,
+      "units": 16,
+      "revenue": 2923.98,
+      "profit": 1013.76
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 9,
+      "units": 30,
+      "revenue": 8541.14,
+      "profit": 3056.28
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 20,
+      "revenue": 5827.87,
+      "profit": 1538.71
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 2,
+      "units": 5,
+      "revenue": 1296.21,
+      "profit": 437.08
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 5,
+      "units": 15,
+      "revenue": 4724.64,
+      "profit": 1204.03
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 10,
+      "units": 35,
+      "revenue": 9380.77,
+      "profit": 3119.64
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 18,
+      "revenue": 3922.48,
+      "profit": 1536.54
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 13,
+      "revenue": 3454.84,
+      "profit": 970.41
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 2,
+      "units": 9,
+      "revenue": 1129.58,
+      "profit": 357.56
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 3,
+      "units": 7,
+      "revenue": 1373.44,
+      "profit": 411.16
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 23,
+      "revenue": 5577.65,
+      "profit": 1442.0
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 26,
+      "revenue": 5129.86,
+      "profit": 1783.39
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 10,
+      "units": 28,
+      "revenue": 6391.0,
+      "profit": 1950.92
+    },
+    {
+      "month": "2026-07",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 5,
+      "units": 15,
+      "revenue": 4383.84,
+      "profit": 1450.74
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 10,
+      "units": 29,
+      "revenue": 7180.25,
+      "profit": 2021.44
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 10,
+      "units": 33,
+      "revenue": 7948.5,
+      "profit": 2708.1
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 4,
+      "units": 12,
+      "revenue": 2153.34,
+      "profit": 712.9
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 6,
+      "units": 15,
+      "revenue": 4068.23,
+      "profit": 1591.84
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 8,
+      "units": 26,
+      "revenue": 4884.86,
+      "profit": 1772.78
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 17,
+      "revenue": 5480.13,
+      "profit": 1813.96
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 2,
+      "units": 6,
+      "revenue": 234.96,
+      "profit": 68.28
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 1,
+      "units": 1,
+      "revenue": 246.69,
+      "profit": 118.51
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 26,
+      "revenue": 6163.36,
+      "profit": 1777.78
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 23,
+      "revenue": 5405.64,
+      "profit": 1682.35
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 5,
+      "units": 16,
+      "revenue": 4285.74,
+      "profit": 1406.17
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 6,
+      "units": 18,
+      "revenue": 4020.56,
+      "profit": 1517.79
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 5,
+      "units": 14,
+      "revenue": 4463.6,
+      "profit": 1219.93
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 11,
+      "units": 27,
+      "revenue": 7420.81,
+      "profit": 2045.09
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 8,
+      "units": 17,
+      "revenue": 3298.27,
+      "profit": 782.98
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 6,
+      "units": 12,
+      "revenue": 2993.66,
+      "profit": 960.32
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 5,
+      "revenue": 1120.57,
+      "profit": 323.79
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 4,
+      "units": 14,
+      "revenue": 4743.54,
+      "profit": 1457.61
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 5,
+      "units": 19,
+      "revenue": 4613.01,
+      "profit": 1195.6
+    },
+    {
+      "month": "2026-08",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 2,
+      "units": 5,
+      "revenue": 1611.41,
+      "profit": 500.65
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 19,
+      "revenue": 3320.94,
+      "profit": 1243.13
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 13,
+      "revenue": 3249.44,
+      "profit": 1061.35
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 3,
+      "units": 8,
+      "revenue": 1022.15,
+      "profit": 399.99
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 8,
+      "units": 25,
+      "revenue": 6957.47,
+      "profit": 2724.65
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 20,
+      "revenue": 5241.05,
+      "profit": 1646.96
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 18,
+      "revenue": 3185.36,
+      "profit": 1017.84
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 4,
+      "units": 12,
+      "revenue": 4280.24,
+      "profit": 1010.67
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 7,
+      "units": 17,
+      "revenue": 4602.85,
+      "profit": 1925.47
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 31,
+      "revenue": 5799.37,
+      "profit": 1900.14
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 16,
+      "revenue": 2675.95,
+      "profit": 863.19
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 9,
+      "units": 21,
+      "revenue": 4345.61,
+      "profit": 1310.97
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 7,
+      "units": 28,
+      "revenue": 5934.07,
+      "profit": 2030.68
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 6,
+      "units": 21,
+      "revenue": 3747.83,
+      "profit": 1164.06
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 6,
+      "units": 21,
+      "revenue": 6147.99,
+      "profit": 1726.78
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 6,
+      "units": 16,
+      "revenue": 3872.46,
+      "profit": 1199.21
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 7,
+      "units": 13,
+      "revenue": 3511.51,
+      "profit": 1326.53
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 14,
+      "revenue": 2629.67,
+      "profit": 709.59
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 28,
+      "revenue": 6795.99,
+      "profit": 2543.46
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 7,
+      "units": 17,
+      "revenue": 3684.57,
+      "profit": 1169.68
+    },
+    {
+      "month": "2026-09",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 6,
+      "units": 18,
+      "revenue": 2986.98,
+      "profit": 1115.33
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "Central",
+      "category": "Electronics",
+      "orders": 4,
+      "units": 9,
+      "revenue": 1514.53,
+      "profit": 594.97
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "Central",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 19,
+      "revenue": 5082.33,
+      "profit": 1587.06
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "Central",
+      "category": "Home",
+      "orders": 5,
+      "units": 19,
+      "revenue": 5499.85,
+      "profit": 1459.37
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "Central",
+      "category": "Sports",
+      "orders": 9,
+      "units": 27,
+      "revenue": 6959.02,
+      "profit": 2710.84
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "East",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 19,
+      "revenue": 2907.58,
+      "profit": 863.7
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "East",
+      "category": "Fashion",
+      "orders": 8,
+      "units": 25,
+      "revenue": 6506.97,
+      "profit": 1944.29
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "East",
+      "category": "Home",
+      "orders": 6,
+      "units": 16,
+      "revenue": 4885.69,
+      "profit": 1411.2
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "East",
+      "category": "Sports",
+      "orders": 6,
+      "units": 15,
+      "revenue": 5153.15,
+      "profit": 2289.91
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "North",
+      "category": "Electronics",
+      "orders": 3,
+      "units": 10,
+      "revenue": 2188.9,
+      "profit": 613.47
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "North",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 18,
+      "revenue": 3029.86,
+      "profit": 872.46
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "North",
+      "category": "Home",
+      "orders": 4,
+      "units": 11,
+      "revenue": 2209.76,
+      "profit": 640.49
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "North",
+      "category": "Sports",
+      "orders": 11,
+      "units": 36,
+      "revenue": 10439.26,
+      "profit": 3993.09
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "South",
+      "category": "Electronics",
+      "orders": 9,
+      "units": 25,
+      "revenue": 4983.28,
+      "profit": 1752.03
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "South",
+      "category": "Fashion",
+      "orders": 7,
+      "units": 23,
+      "revenue": 6180.52,
+      "profit": 1509.5
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "South",
+      "category": "Home",
+      "orders": 7,
+      "units": 21,
+      "revenue": 3086.25,
+      "profit": 964.01
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "South",
+      "category": "Sports",
+      "orders": 1,
+      "units": 4,
+      "revenue": 1009.84,
+      "profit": 278.12
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "West",
+      "category": "Electronics",
+      "orders": 7,
+      "units": 17,
+      "revenue": 4260.32,
+      "profit": 1137.69
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "West",
+      "category": "Fashion",
+      "orders": 5,
+      "units": 10,
+      "revenue": 3143.12,
+      "profit": 1089.59
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "West",
+      "category": "Home",
+      "orders": 6,
+      "units": 10,
+      "revenue": 2105.12,
+      "profit": 687.23
+    },
+    {
+      "month": "2026-10",
+      "year": 2026,
+      "region": "West",
+      "category": "Sports",
+      "orders": 10,
+      "units": 26,
+      "revenue": 6241.46,
+      "profit": 2655.54
+    }
+  ]
+}
